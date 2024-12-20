@@ -8,10 +8,11 @@ struct nilai
 };
 
 void data_mhs(){
-    nilai nil_mhs[2][2]={};
+    int nilai_raport_mhs[4]={12, 22, 43, 55};
+    cout << nilai_raport_mhs << endl;
 }
 
 int main(){
-
+    data_mhs();
     return 0;
 }
